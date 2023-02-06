@@ -47,15 +47,3 @@ function Desencriptar(stringDesencriptada) {
 
      return stringDesencriptada;
 }
-
-
-function btnCopiar(stringCopiar) {
-    const textoCopiado = Copiar(mensagem.value);
-    mensagem.value = textoCopiado;
-    mensagem.value = "";
-     
-}
-
-function Copiar(stringCopiar) {
-    
-}
