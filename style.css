@@ -1,9 +1,8 @@
 * {
-    background: black;
+    background: rgb(0, 0, 0);
     font-size: 22px;
     line-height: 150%;
-    color: rgb(122, 172, 21)
-    
+    color: rgb(122, 172, 21)    
 }
 
 .logo {   
@@ -25,14 +24,12 @@ textarea {
     color: rgb(122, 172, 21);
     margin-top: 30px;
     padding-left: 10px;
-    text-transform: lowercase;
-    
+    text-transform: lowercase;    
 }
 
 ::placeholder {color: rgb(122, 172, 21);}
     .text-area:focus {
-        outline: none;
-       
+        outline: none;       
     }
 
     h6 {
@@ -43,7 +40,7 @@ textarea {
 
 .mensagem {
         background: gray;
-        background-image: url(./Imagens/loading.jpg);
+        background-image: url(/Imagens/loading.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 10%;
@@ -51,6 +48,7 @@ textarea {
         color: rgb(122, 172, 21);
         margin-left: 100px;      
         padding: 10 10;
+        position: fixed;
         width: 500px;
         height: 350px;      
 }
@@ -80,14 +78,14 @@ textarea {
     width: 220px;
 }
 
-.btn-copiar {
+.botao-copiar {
     background: black;
     border: 2px solid;
     border-radius: 10px;
     cursor: pointer;
     height: 50px;
     margin-left: 200px;
-    margin-top: 95px;
+    margin-top: 490px;
     position: absolute;
     width: 300px;
     background-position: center;
@@ -98,7 +96,3 @@ button:hover {
     background-color: gray;  
 }
 
-.copyright {
-    text-align: center;
-    padding-top: 70px;
-}
