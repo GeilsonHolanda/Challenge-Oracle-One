@@ -47,3 +47,11 @@ function Desencriptar(stringDesencriptada) {
 
      return stringDesencriptada;
 }
+
+//BOTÃO COPIAR
+
+function copiar() {
+  mensagem.select();
+  document.execCommand("copy");
+  document.getElementById("copiar");
+}
