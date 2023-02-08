@@ -51,7 +51,6 @@ textarea {
         color: rgb(122, 172, 21);
         margin-left: 100px;      
         padding: 10 10;
-        position: fixed;
         width: 500px;
         height: 350px;      
 }
@@ -88,7 +87,7 @@ textarea {
     cursor: pointer;
     height: 50px;
     margin-left: 200px;
-    margin-top: 490px;
+    margin-top: 95px;
     position: absolute;
     width: 300px;
     background-position: center;
@@ -97,4 +96,9 @@ textarea {
 button:hover {
     transform: scale(1.1);
     background-color: gray;  
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 70px;
 }
