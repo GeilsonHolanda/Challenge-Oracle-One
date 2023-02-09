@@ -29,8 +29,7 @@ textarea {
 
 ::placeholder {color: rgb(122, 172, 21);}
     .text-area:focus {
-        outline: none;
-       
+        outline: none;       
     }
 
     h6 {
@@ -46,17 +45,11 @@ textarea {
         background-position: center;
         background-size: 10%;
         border-radius: 14px;
-        color: rgb(122, 172, 21);
+        color: rgb(0, 0, 0);
         margin-left: 100px;      
         padding: 10 10;
         width: 500px;
         height: 350px;      
-}
-
-.mensagem:focus {
-    display: flex;
-    margin-top: 18px;
-    text-align: center;
 }
 
 .btn-desencriptar {
@@ -93,7 +86,8 @@ textarea {
 
 button:hover {
     transform: scale(1.1);
-    background-color: gray;  
+    background-color: gray;
+    color: black;
 }
 
 .copyright {
