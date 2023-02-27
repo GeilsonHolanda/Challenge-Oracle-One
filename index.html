@@ -2,17 +2,17 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
     <title>Encriptador</title>
 </head>
 <body>
     <header>
         <img class="logo" src="./Imagens/logo.jpg" alt="Logo Alura">
-    </header>  
-
+    </header>
     <main>
-
         <section>
             <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
     
@@ -25,7 +25,6 @@
                 <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>    
             </div>
         </section>
-    
         <section>
           <div>
             <textarea class="mensagem" id="texto" type="text" cols="20" rows="10"></textarea>
@@ -33,14 +32,11 @@
           <div>
             <button class="btn-copiar" onclick="copiar()">Copiar</button>
           </div>
-        </section>        
-    </main>    
-
+        </section>      
+    </main>
     <script src="script.js"></script>
-
     <footer>
         <img src="">
-
         <p class="copyright">&copy; Geilson Ferreira de Holanda - 2023</p>
     </footer>
 </body>

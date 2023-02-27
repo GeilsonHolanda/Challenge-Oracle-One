@@ -1,9 +1,17 @@
+:root {
+    --Verde: rgb(122, 172, 21);
+    --preto: black;
+    --cinza: gray;        
+}
+
+
 * {
-    background: black;
+    background: rgb(0, 0, 0);
     font-size: 22px;
-    line-height: 150%;
+    line-height: 100%;
     color: rgb(122, 172, 21)    
 }
+
 
 .logo {   
     margin-left: 10px;
@@ -13,18 +21,18 @@
 
 main {
     display: flex;
-    padding-top: 50px;
-    margin-left: 80px;
+    padding-top: 20px;
+    margin-left: 10px;
 }
 
 textarea {
+    width: 550px;
     height: 350px;
     border-color: rgb(122, 172, 21);
     border-radius: 10px;
     color: rgb(122, 172, 21);
     margin-top: 30px;
-    padding-left: 10px;
-    text-transform: lowercase;    
+    margin-right: 100px;      
 }
 
 ::placeholder {color: rgb(122, 172, 21);}
@@ -35,7 +43,7 @@ textarea {
     h6 {
         font-size: medium;
         margin-top: 0px;
-        margin-bottom: 75px;
+        margin-bottom: 35px;
     }
 
 .mensagem {
@@ -45,11 +53,9 @@ textarea {
         background-position: center;
         background-size: 10%;
         border-radius: 14px;
-        color: rgb(0, 0, 0);
-        margin-left: 100px;      
-        padding: 10 10;
-        width: 500px;
-        height: 350px;      
+        color: rgb(0, 0, 0);           
+        width: 550px;
+        height: 350px;   
 }
 
 .btn-desencriptar {
@@ -58,7 +64,7 @@ textarea {
     border-radius: 10px;
     cursor: pointer;
     height: 50px;
-    margin-left: 20px;
+    margin-left: 40px;
     width: 220px;
 }
 
@@ -69,6 +75,7 @@ textarea {
     cursor: pointer;
     height: 50px;
     width: 220px;
+    margin-left: 40px;
 }
 
 .btn-copiar {
@@ -77,8 +84,8 @@ textarea {
     border-radius: 10px;
     cursor: pointer;
     height: 50px;
-    margin-left: 200px;
-    margin-top: 95px;
+    margin-left: 135px;
+    margin-top: 50px;
     position: absolute;
     width: 300px;
     background-position: center;

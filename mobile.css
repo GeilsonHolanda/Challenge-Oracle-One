@@ -1,0 +1,50 @@
+@media screen and (max-width: 480px) {
+    .logo {
+        width: 20%;
+    }
+
+    main {
+        flex-direction: column;
+        padding-top: 1rem;
+    }
+
+    .text-area, .mensagem {
+       margin-left: 1rem;
+    }
+
+    .mensagem {
+        margin-top: 55px;
+    }
+
+    h6 {
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+
+    .botoes {
+        width: 500px;
+    }
+
+    .btn-desencriptar {
+        display: inline-block;
+        width: 40%;
+    }
+
+    .btn-encriptar {
+        display: inline-block;
+        width: 40%;
+        margin-left: 25px;
+    }
+
+    .btn-copiar {
+        width: 55%;
+        margin-top: 40px;
+        margin-left: 25px;
+    }
+
+    .copyright {
+        width: 680px;
+        padding-top: 5rem;
+    }
+    
+}
