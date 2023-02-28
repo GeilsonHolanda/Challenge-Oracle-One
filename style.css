@@ -1,15 +1,15 @@
 :root {
     --Verde: rgb(122, 172, 21);
     --preto: black;
-    --cinza: gray;        
+    --cinza: rgb(173, 168, 168);        
 }
 
 
 * {
-    background: rgb(0, 0, 0);
+    background: var(--preto);
     font-size: 22px;
     line-height: 100%;
-    color: rgb(122, 172, 21)    
+    color: var(--Verde)    
 }
 
 
@@ -28,14 +28,14 @@ main {
 textarea {
     width: 550px;
     height: 350px;
-    border-color: rgb(122, 172, 21);
+    border-color: var(--verde);
     border-radius: 10px;
-    color: rgb(122, 172, 21);
+    color: var(--verde);
     margin-top: 30px;
     margin-right: 100px;      
 }
 
-::placeholder {color: rgb(122, 172, 21);}
+::placeholder {color: var(--verde);;}
     .text-area:focus {
         outline: none;       
     }
@@ -47,19 +47,19 @@ textarea {
     }
 
 .mensagem {
-        background: gray;
+        background: var(--cinza);
         background-image: url(./Imagens/loading.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 10%;
         border-radius: 14px;
-        color: rgb(0, 0, 0);           
+        color: var(--preto);           
         width: 550px;
         height: 350px;   
 }
 
 .btn-desencriptar {
-    background: black;
+    background: var(--preto);
     border: 2px solid;
     border-radius: 10px;
     cursor: pointer;
@@ -69,7 +69,7 @@ textarea {
 }
 
 .btn-encriptar {
-    background: rgb(0, 0, 0);
+    background: var(--preto);
     border: 2px solid;
     border-radius: 10px;
     cursor: pointer;
@@ -79,7 +79,7 @@ textarea {
 }
 
 .btn-copiar {
-    background: black;
+    background: var(--preto);
     border: 2px solid;
     border-radius: 10px;
     cursor: pointer;
@@ -93,8 +93,8 @@ textarea {
 
 button:hover {
     transform: scale(1.1);
-    background-color: gray;
-    color: black;
+    background-color: var(--cinza);
+    color: var(--preto);
 }
 
 .copyright {
